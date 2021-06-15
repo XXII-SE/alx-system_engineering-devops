@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Insert word: " word
+echo $word | tr -d c , C
